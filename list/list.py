@@ -64,6 +64,50 @@ del guest[0]
 print(guest)
 
 # string sorting alphabaticly
-laptop=['dell','hp','accer','intel']
-laptop.sort()
-print(laptop)
+vegetables = ['squash', 'Carrot','pea', 'carrot', 'potato']
+
+new_list = sorted(vegetables)
+
+# new_list = ['carrot', 'pea', 'potato', 'squash']
+print(new_list)
+
+# vegetables = ['squash', 'pea', 'carrot', 'potato']
+print(vegetables)
+
+vegetables.sort()
+
+# vegetables = ['carrot', 'pea', 'potato', 'squash']
+print(vegetables)
+print(vegetables)
+
+#printing list in reserve order
+vegetables = ['squash', 'Carrot','pea', 'carrot', 'potato']
+vegetables.reverse()
+print(vegetables)
+vegetables.remove('potato')
+print(vegetables)
+a=len(vegetables)
+print(a)
+places=['Maldives','Turkey','New york','London']
+print('original')
+print(places)
+print('sorted')
+print(sorted(places))
+print('again orignal')
+print(places)
+places.reverse()
+print(sorted(places,reverse=True))
+print(places)
+print('print reverse 1')
+places.reverse()
+print(places)
+print('print reverse 2')
+places.reverse()
+print(places)
+print('sort')
+places.sort()
+print(places)
+print('sort reverse')
+places.sort(reverse=True)
+print(places)
+print(places[-2])
