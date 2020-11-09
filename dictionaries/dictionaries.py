@@ -223,16 +223,77 @@ for men,language in favorite_lan.items():
 users={
 
     'albert':{
-        'name':'albert',
+        'name':'einstien',
         'location':'london'
     },
     'wassem':{
-        'name':'waseem',
+        'name':'badami',
         'location':'karachi'
     },
     'poja':{
-        'name':'pojja',
+        'name':'podina',
         'location':'Dehli'
     }
 
 }
+for u,i in users.items():
+    print('Username'+u)
+    fullname=i['name']+u
+    location=i['location']
+    print('Fullname:'+fullname.title())
+    print('location:'+location
+    )
+
+for z in users.keys():
+    print(z)
+
+#6.8
+dog={
+    'owner':'waqar'
+
+}
+cat={
+    'owner':'zakka'
+}
+pets=[dog,cat]
+for i in pets:
+    print(i)
+
+#6.9
+favorate_places={
+    'ali':['new zeland','australia'],
+    'maha':['turkey','karachi'],
+    'jahanzeb':['northern areas']
+}
+for x,y in favorate_places.items():
+    print('\n'+x.title()+'favorites places are :')
+    for s in y:
+        print(s.title())
+
+#6.11
+cities={
+    'karachi':{
+    'country':' pakistan ',
+    "population": 34524555,
+    'fact':" lovely"
+    },
+    'lahore':{
+      'country':' pakistan ',
+    "population": 20000,
+    'fact':" donkey"
+    },
+    'islamabad':{
+        'country':' pakistan ',
+    "population": 10000,
+    'fact':" burger"
+    }
+
+}
+for x,y in cities.items():
+    print('City:'+x+' details:')
+    # details=y['country']+str(y['population'])+y['fact']
+    # print(details)
+    print(y['country'])
+    print(str(y['population']))
+    print(y['fact'])
+
